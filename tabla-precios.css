@@ -1,0 +1,103 @@
+body{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h3{
+    font-size: xx-large;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+h2{
+    font-weight: 900;
+    font-size:xx-large;
+    color: rgb(0, 0, 0);
+    
+}
+p{
+    font-weight: 500;
+    font-size: large;
+}
+h{
+    font-weight: 700;
+    font-size: x-large;
+}
+a{
+    font-weight: 800;
+    font-size: x-large;
+}
+.planes{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.plan1{
+    background: rgba(255, 170, 100, 0.493);
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing:border-box;
+}
+.precio{
+    font-size: 40px;
+    color: rgb(173, 64, 0);
+}
+.btn-precio{
+    background: salmon;
+    display:block;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(248, 78, 60) ;
+}
+.espe{
+    display:block;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+.espe:hover{
+    background: #fff;
+}
+@media(max-width: 1100px){
+    .plan1{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 900px){
+    .plan1{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:600px){
+    .plan1{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+}
+img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+body{
+    background-image: url('xiaomi/fondo1.jpg')
+}
